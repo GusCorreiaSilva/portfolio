@@ -4,3 +4,6 @@ body {
   text-decoration: none;
   list-style: none;
 }
+img {
+  max-width: 100%;
+}
