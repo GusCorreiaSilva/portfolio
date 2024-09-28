@@ -1,4 +1,4 @@
-Prototipo: https://www.figma.com/design/CCMhuYEkjjmIT4MtL5hqSO/Portfolio-for-Developers-(Community)?node-id=0-1&t=9rflwFnIEpXRsvBP-1
+Prototipo: https://www.figma.com/design/DdUbJvZlpLZHbKkGx9FE9R/Untitled?node-id=0-1&t=cZlGHw1LPcfo0QBS-1
 Dispositivos: Breakpoints -
 Galaxy pocket/SE -
 S24 Android/ Iphone 15 -
