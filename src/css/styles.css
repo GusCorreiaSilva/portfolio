@@ -116,8 +116,6 @@ header {
   width: 100%;
   grid-column: 1;
 }
-.content-link {
-}
 .content-info-grid p{
   grid-column: 3;
   text-align: right;
