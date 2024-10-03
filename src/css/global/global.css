@@ -1,13 +1,30 @@
-body {
+* {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  border: none;
   list-style: none;
+  box-sizing: border-box;
 }
-a {
+
+a,
+h1,
+p {
+  margin: 0px;
+  padding: 0px;
   text-decoration: none;
-  color: greenyellow;
 }
 img {
   max-width: 100%;
+}
+
+:root {
+  --detail--color: #686868;
+  --bg--color: #1A1A1A;
+  --footer--bg: #0c0c0c;
+  --font--white: #fff;
+  --font--grey: #bebebe;
+  --font--contrast: #D3E97A;
+
+
 }
