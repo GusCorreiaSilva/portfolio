@@ -201,3 +201,44 @@ h1 {
     justify-content: center;
   }
 }
+@media (max-width: 240px) {
+  header {
+    padding: 20px 14px;
+  }
+  header h1 {
+    font-size: 18px;
+  }
+  .header-menu {
+    gap: 12px;
+    font-size: 12px;
+  }
+  main {
+    padding: 0px 30px;
+  }
+  .content-info-grid {
+    display: grid;
+    grid-template-columns: 1fr 32px 1fr;
+    gap: 65px;
+  }
+  .about {
+    padding-bottom: 50px;
+    width: 100%;
+    border-bottom: 1px solid var(--detail--color);
+  }
+  .about-me h1 {
+    font-size: 18px;
+    line-height: 1;
+    color: var(--font--white);
+  }
+  .about-me p {
+    line-height: 1;
+    color: var(--font--grey);
+  }
+  .projects-container-title h1 {
+    font-size: 18px;
+    
+  }
+  .content-info-text h1 {
+    font-size: 18px;
+  }
+}
