@@ -188,9 +188,7 @@ h1 {
   gap: 8px;
 }
 @media (max-width:1366px) {
-  .content-info-grid{
-    display: grid;
-    grid-template-columns: 1fr 200px 1fr;
+  .content-info-grid h1{
     gap: 65px;
   }
   .content  {
@@ -201,9 +199,9 @@ h1 {
     justify-content: center;
   }
 }
-@media (max-width: 240px) {
+@media (max-width: 241px) {
   header {
-    padding: 20px 14px;
+    padding: 12px 14px;
   }
   header h1 {
     font-size: 18px;
@@ -213,7 +211,15 @@ h1 {
     font-size: 12px;
   }
   main {
+    gap: 32px;
     padding: 0px 30px;
+  }
+  .projects-content {
+    flex-direction: column;
+  }
+  .projects-img {
+    padding: 12px 14px;
+
   }
   .content-info-grid {
     display: grid;
@@ -221,6 +227,8 @@ h1 {
     gap: 65px;
   }
   .about {
+    flex-direction: column-reverse;
+    gap: 12px;
     padding-bottom: 50px;
     width: 100%;
     border-bottom: 1px solid var(--detail--color);
@@ -240,5 +248,12 @@ h1 {
   }
   .content-info-text h1 {
     font-size: 18px;
+  }
+  .contact-container {
+    padding: 12px 14px ;
+  }
+  .contact-title h1 {
+    font-size: 18px;
+
   }
 }
