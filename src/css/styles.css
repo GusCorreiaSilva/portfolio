@@ -27,6 +27,9 @@ h1 {
   gap: 32px;
   padding: 12px;
 }
+.header-menu a:hover {
+  color: var(--font--contrast);
+}
 .about {
   display: flex;
   justify-content: space-between;
@@ -93,7 +96,7 @@ h1 {
 .content-info {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 24px;
   max-width: 700px;
 }
 .content-link {
@@ -121,9 +124,9 @@ h1 {
   align-items: center;
   gap: 65px;
 }
-.informacoes{
+.informacoes {
+  display: flex;
   font-size: 12px;
-  text-align: center;
   width: 100%;
   border-bottom: 1px solid var(--detail--color);
   padding-bottom: 8px;
@@ -131,30 +134,41 @@ h1 {
 .content-info-grid {
   display: grid;
   grid-template-columns: 1fr 400px 1fr;
-  border-bottom: 1px solid var(--detail--color);
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 65px;
 }
-.content-info-grid div{
-  display: flex;
-  justify-content: space-between;
+.content-info-grid .informacoes {
+  grid-row: 1;
+  grid-column: 1/-1;
+}
+.content-info-grid .ano ,
+.content-info-grid .linguagem {
   border-bottom: 1px solid var(--detail--color);
   grid-column: 1/-1;
-  grid-row: 1;
 }
-.content-info-grid h3{
-  width: 100%;
-  grid-column: 1;
+.content-info-grid .ano{
+  grid-row: 2;
   font-size: 16px;
 }
-.content-info-grid p{
+.content-info-grid .ano-numero {
+  text-align: center;
   grid-column: 3;
-  text-align: right;
+  grid-row: 2;
+}
+.content-info-grid .linguagem{
+  grid-row: 3;
+  font-size: 16px;
+}
+.content-info-grid .linguagem-nome{
+  text-align: center;
+  grid-column: 3;
+  grid-row: 3;
   font-size: 14px;
 }
 .projects-img {
-  background-color: #323232;
-  border-radius: 5px;
-  padding: 24px 32px;
+  background-color: var(--img--bg);
+  border-radius: 10px;
+  padding: 24px 24px;
 }
 .projects-h1 h1{
   margin-bottom: 8px;
@@ -187,12 +201,34 @@ h1 {
   align-items: center;
   gap: 8px;
 }
+
 @media (max-width:1366px) {
-  .content-info-grid h1{
-    gap: 65px;
+  .projects-container-title h1{
+    font-size: 32px;
   }
+  .content-info {
+    gap: 12px;
+  }
+  .content-info-grid {
+    grid-template-columns: 1fr 300px 1fr;
+  }
+  .content-info-text h1{
+    font-size: 24px;
+  }
+  .projects-img {
+  padding: 16px 16px;
+ }
   .content  {
     align-items: center;
+  }
+  .content-link {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 1252px) {
+  .projects-content {
+    flex-direction: column;
   }
   .content-link {
     display: flex;
@@ -219,7 +255,6 @@ h1 {
   }
   .projects-img {
     padding: 12px 14px;
-
   }
   .content-info-grid {
     display: grid;
@@ -244,7 +279,6 @@ h1 {
   }
   .projects-container-title h1 {
     font-size: 18px;
-    
   }
   .content-info-text h1 {
     font-size: 18px;
@@ -254,6 +288,5 @@ h1 {
   }
   .contact-title h1 {
     font-size: 18px;
-
   }
 }
