@@ -22,18 +22,9 @@ img {
 :root {
   --detail--color: #686868;
   --bg--color: #1A1A1A;
-  --img--bg:#323232;
+  --img--bg:#2a2a2a;
   --footer--bg: #0c0c0c;
   --font--white: #fff;
   --font--grey: #bebebe;
   --font--contrast: #b170f6;
 }
-/* :root {
-  --detail--color: #686868;
-  --bg--color: #1A1A1A;
-  --img--bg:#323232;
-  --footer--bg: #0c0c0c;
-  --font--white: #fff;
-  --font--grey: #bebebe;
-  --font--contrast: #D3E97A;
-} */
