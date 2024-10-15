@@ -83,7 +83,6 @@ h1 {
 .projects-content {
   display: flex;
   width: 100%;
-  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   gap: 32px;
@@ -121,7 +120,6 @@ h1 {
 .content-info-detail {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 65px;
 }
 .informacoes {
@@ -154,6 +152,7 @@ h1 {
   text-align: center;
   grid-column: 3;
   grid-row: 2;
+  font-size: 12px;
 }
 .content-info-grid .linguagem{
   grid-row: 3;
@@ -163,16 +162,13 @@ h1 {
   text-align: center;
   grid-column: 3;
   grid-row: 3;
-  font-size: 14px;
+  font-size: 12px;
 }
 .projects-img {
   background-color: var(--img--bg);
+  width: 506px;
   border-radius: 10px;
   padding: 24px 24px;
-}
-.projects-h1 h1{
-  margin-bottom: 8px;
-  font-size: 38px;
 }
 .contact-container {
   background-color: var(--footer--bg);
@@ -202,7 +198,10 @@ h1 {
   gap: 8px;
 }
 
-@media (max-width:1366px) {
+@media (max-width: 1366px) {
+  .content-info-text p{
+    max-width: 50ch;
+  }
   .projects-container-title h1{
     font-size: 32px;
   }
