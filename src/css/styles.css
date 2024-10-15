@@ -136,6 +136,7 @@ h1 {
   gap: 65px;
 }
 .content-info-grid .informacoes {
+  justify-content: center;
   grid-row: 1;
   grid-column: 1/-1;
 }
@@ -146,7 +147,7 @@ h1 {
 }
 .content-info-grid .ano{
   grid-row: 2;
-  font-size: 16px;
+  font-size: 14px;
 }
 .content-info-grid .ano-numero {
   text-align: center;
@@ -156,7 +157,7 @@ h1 {
 }
 .content-info-grid .linguagem{
   grid-row: 3;
-  font-size: 16px;
+  font-size: 14px;
 }
 .content-info-grid .linguagem-nome{
   text-align: center;
@@ -209,7 +210,7 @@ h1 {
     gap: 12px;
   }
   .content-info-grid {
-    grid-template-columns: 1fr 300px 1fr;
+    grid-template-columns: 1fr 300px 120px;
   }
   .content-info-text h1{
     font-size: 24px;
@@ -253,11 +254,12 @@ h1 {
     flex-direction: column;
   }
   .projects-img {
+    max-width: 100%;
     padding: 12px 14px;
   }
   .content-info-grid {
     display: grid;
-    grid-template-columns: 1fr 32px 1fr;
+    grid-template-columns: 1fr 1px 1fr;
     gap: 65px;
   }
   .about {
@@ -280,8 +282,12 @@ h1 {
     font-size: 18px;
   }
   .content-info-text h1 {
-    font-size: 18px;
+    font-size: 12px;
   }
+.content-info-text p{
+  font-size: 10px;
+  max-width: 30ch;
+}
   .contact-container {
     padding: 12px 14px ;
   }
