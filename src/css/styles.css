@@ -135,7 +135,7 @@ h1 {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 65px;
 }
-.content-info-grid .informacoes {
+.informacoes {
   justify-content: center;
   grid-row: 1;
   grid-column: 1/-1;
@@ -145,21 +145,21 @@ h1 {
   border-bottom: 1px solid var(--detail--color);
   grid-column: 1/-1;
 }
-.content-info-grid .ano{
+.ano{
   grid-row: 2;
   font-size: 14px;
 }
-.content-info-grid .ano-numero {
+.ano-numero {
   text-align: center;
   grid-column: 3;
   grid-row: 2;
   font-size: 12px;
 }
-.content-info-grid .linguagem{
+.linguagem{
   grid-row: 3;
   font-size: 14px;
 }
-.content-info-grid .linguagem-nome{
+.linguagem-nome{
   text-align: center;
   grid-column: 3;
   grid-row: 3;
@@ -259,8 +259,22 @@ h1 {
   }
   .content-info-grid {
     display: grid;
-    grid-template-columns: 1fr 1px 1fr;
+    grid-template-columns: 1fr 1px 20px;
     gap: 65px;
+  }
+  .content-link a{
+    font-size: 10px;
+  }
+  .informacoes {
+    font-size: 12px;
+  }
+  .ano, 
+  .linguagem {
+    font-size: 12px;
+  }
+  .ano-numero,
+  .linguagem-nome{
+    font-size: 10px;
   }
   .about {
     flex-direction: column-reverse;
@@ -278,13 +292,19 @@ h1 {
     line-height: 1;
     color: var(--font--grey);
   }
+  .about-me-text p{
+  font-size: 12px;
+}
   .projects-container-title h1 {
     font-size: 18px;
+  }
+  .projects-container-title p {
+    font-size: 12px;
   }
   .content-info-text h1 {
     font-size: 12px;
   }
-.content-info-text p{
+  .content-info-text p{
   font-size: 10px;
   max-width: 30ch;
 }
