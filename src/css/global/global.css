@@ -25,4 +25,17 @@ img {
   --font--white: #fff;
   --font--grey: #bebebe;
   --font--contrast: #b170f6;
+  --bg--contrast: #36313c;
+  --font--h1: #fff;
+}
+.light-mode {
+  --detail--color: #686868;
+  --bg--color: #fbfbfb;
+  --img--bg:#e7deef;
+  --footer--bg: #1c1c1c;
+  --font--white: #161616;
+  --font--grey: #4f4f4f;
+  --font--contrast: #9f45ff;
+  --bg--contrast: #e8d3ff;
+  --font--h1: #fff;
 }
