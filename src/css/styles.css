@@ -92,6 +92,7 @@ header a {
 }
 .projects-content {
   display: flex;
+  justify-content: space-between;
   width: 100%;
   align-items: center;
   flex-direction: row;
@@ -246,6 +247,7 @@ header a {
 @media (max-width: 1252px) {
   .projects-content {
     flex-direction: column;
+    
   }
   .content-link {
     display: flex;
