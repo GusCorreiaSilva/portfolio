@@ -286,7 +286,7 @@ header a {
     font-size: 10px;
   }
   .informacoes {
-    font-size: 12px;
+    font-size: 10px;
   }
   .ano, 
   .linguagem {
@@ -334,4 +334,8 @@ header a {
   .contact-title h1 {
     font-size: 18px;
   }
+  .social-media {
+    font-size: 12px;
+  }
+  
 }
