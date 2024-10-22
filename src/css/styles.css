@@ -337,5 +337,8 @@ header a {
   .social-media {
     font-size: 12px;
   }
-  
+  .social-media img {
+    width: 24px;
+    height: 23px;
+  }
 }
