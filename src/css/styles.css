@@ -127,6 +127,7 @@ header a {
 }
 .content-info-text h1{
   font-size: 32px;
+  color: var(--font--white);
 }
 .content-info-detail {
   display: flex;
