@@ -264,13 +264,30 @@ header a {
     justify-content: center;
   }
 }
-@media (max-width: 241px) {
+@media (max-width: 700px) {
   header {
-    padding: 12px 14px;
+    padding: 18px 24px;
+  }
+  main {
+    gap: 50px;
+    padding: 0px 25px;
+  }
+  contact-container {
+    padding: 25px 50px;
   }
   #break{
     display: none;
   }
+  .about {
+    flex-direction: column-reverse;
+    gap: 16px;
+  }
+}
+@media (max-width: 540px) {
+  header {
+    padding: 12px 14px;
+  }
+ 
   header h1 {
     font-size: 18px;
   }
@@ -288,6 +305,7 @@ header a {
   .projects-img {
     max-width: 100%;
     padding: 12px 14px;
+    width: 350px;
   }
   .content-info-grid {
     display: grid;
@@ -309,7 +327,6 @@ header a {
     font-size: 10px;
   }
   .about {
-    flex-direction: column-reverse;
     gap: 12px;
     padding-bottom: 50px;
     width: 100%;
@@ -337,11 +354,11 @@ header a {
     font-size: 12px;
   }
   .content-info-text p{
-  font-size: 10px;
-  max-width: 30ch;
+   font-size: 10px;
+   max-width: 30ch;
 }
   .contact-container {
-    padding: 12px 14px ;
+    padding: 12px 14px;
   }
   .contact-title h1 {
     font-size: 18px;
