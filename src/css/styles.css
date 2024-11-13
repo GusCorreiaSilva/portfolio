@@ -254,10 +254,11 @@ header a {
   }
 }
 @media (max-width: 1252px) {
-  .projects-content {
+  .projects-content,
+  .projects-content-reversed {
     flex-direction: column;
-    
   }
+  
   .content-link {
     display: flex;
     justify-content: center;
